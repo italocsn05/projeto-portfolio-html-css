@@ -1,0 +1,122 @@
+.experiencia-container{
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+}
+
+.subtitulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.68rem;
+
+    color: #141414;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.card-item{
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    border-radius: 2px;
+    display: grid;
+    position: relative;
+    padding: 20px 20px;
+    max-width: 755px;
+    margin-left: 144px;
+}
+
+.ano-experiencia{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.43rem;
+    color: #B8B8B8;
+    position: absolute;
+    left: -100px;
+    top: 16px;
+}
+
+.empresa-experiencia{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.43rem;
+    color: #000000;
+
+    grid-column: 1;
+    position: relative;
+}
+
+.empresa-experiencia::before{
+    content: "";
+    width: 5px;
+    height: 21px;
+    top: 0px;
+    left: -25px;
+    position: absolute;
+    background: #4E6EDD;
+}
+
+.descricao-experiencia{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.43rem;
+    color: #7A7A7A;
+    max-width: 360px;
+    margin-top: 12px;
+
+    grid-column: 1;
+}
+
+.cargo-experiencia{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.43rem;
+
+    color: #000000;
+
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.itens-experiencia{
+    grid-column: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 10px;
+    max-width: 200px;
+    align-items: flex-start;
+}
+
+.item-experiencia{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 0.87rem;
+    color: #FFFFFF;
+    background: #3657CB;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
